@@ -42,8 +42,8 @@ drawGmap = google.maps.event.addDomListener(window, 'load', init);
             function init() {
                 // Basic options for a simple Google Map
                 // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
-                var ericLocale = new google.maps.LatLng(40.7634771,-73.8280176);
-                var contentString = "<h4>Eric Chang Dental </h4> <p>3625 Union St Suite C Flushing, NY, 11354</p> <a href='https://www.google.com/maps/dir//36-25+Union+St,+Flushing,+NY+11354/@40.7634722,-73.8280349,17z/data=!4m13!1m4!3m3!1s0x89c2601a919551c7:0x3106a2467ac959a1!2s36-25+Union+St,+Flushing,+NY+11354!3b1!4m7!1m0!1m5!1m1!1s0x89c2601a919551c7:0x3106a2467ac959a1!2m2!1d-73.8280349!2d40.7634722'><p><b>Directions</b></p></a>";
+                var parkLinLocale = new google.maps.LatLng(41.277887,-73.68118900000002);
+                var contentString = "<h4>ParkLin Dental, PC </h4> <p>190 Goldens Bridge Road, Katonah, NY 10536</p> <a href='https://www.google.com/maps/dir//190+Goldens+Bridge+Road,+Katonah,+NY/@41.277895,-73.6855664,16z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x89c2b1bec41b7c53:0xf62ac288dbbe34ca!2m2!1d-73.681189!2d41.277887'><p><b>Directions</b></p></a>";
                  var infowindow = new google.maps.InfoWindow({
 								      content: contentString
 								  });
@@ -54,7 +54,7 @@ drawGmap = google.maps.event.addDomListener(window, 'load', init);
                     draggable: false,
 
                     // The latitude and longitude to center the map (always required)
-                    center: new google.maps.LatLng(40.7634771,-73.8280176), // New York
+                    center: new google.maps.LatLng(41.277887,-73.68118900000002), // New York
 
                     // How you would like to style the map. 
                     // This is where you would paste any style found on Snazzy Maps.
@@ -72,7 +72,7 @@ drawGmap = google.maps.event.addDomListener(window, 'load', init);
                 // Create the Google Map using out element and options defined above
                 var map = new google.maps.Map(mapElement, mapOptions);
                 var marker = new google.maps.Marker({
-							      position: ericLocale,
+							      position: parkLinLocale,
 							      map: map,
 							      title: 'Eric Chang Dental' });
                  google.maps.event.addListener(marker, 'click', function() {
