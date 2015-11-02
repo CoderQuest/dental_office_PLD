@@ -13,5 +13,24 @@ div.pull-left div.main-logo {
 p.dr-lin-profile-desc {
 	max-height: 247px;
 	overflow: scroll;
-	border: 1px gray solid;
+	border: 1px #E6E6E6 solid;
+}
+
+div.team-img {
+	height: 170px
+}
+
+div.footer2 img, div.logo a img, li.logo img {
+	width: 80px;
+	height: 70px;
+}
+
+a img.mid-logo {
+	width: 50px;
+	height: 40px;
+}
+
+div.second-slide-container div.second-slide {
+	color: red;
+	margin-left: 1000px !important;
 }
