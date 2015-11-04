@@ -1,0 +1,59 @@
+/* line 5, /Users/Moonlight/Desktop/dental_website/dental_office_PLD/app/assets/stylesheets/home.css.scss */
+div.pull-left div.main-logo {
+  margin-top: 20px;
+}
+
+/* line 9, /Users/Moonlight/Desktop/dental_website/dental_office_PLD/app/assets/stylesheets/home.css.scss */
+.dr-park-container {
+  min-height: 402px;
+}
+
+/* line 13, /Users/Moonlight/Desktop/dental_website/dental_office_PLD/app/assets/stylesheets/home.css.scss */
+p.dr-lin-profile-desc {
+  max-height: 247px;
+  overflow: scroll;
+  border: 1px #E6E6E6 solid;
+}
+
+/* line 19, /Users/Moonlight/Desktop/dental_website/dental_office_PLD/app/assets/stylesheets/home.css.scss */
+div.team-img {
+  height: 170px;
+}
+
+/* line 23, /Users/Moonlight/Desktop/dental_website/dental_office_PLD/app/assets/stylesheets/home.css.scss */
+div.footer2 img, div.logo a img, li.logo img {
+  width: 147px;
+  height: 70px;
+}
+
+/* line 28, /Users/Moonlight/Desktop/dental_website/dental_office_PLD/app/assets/stylesheets/home.css.scss */
+a img.mid-logo {
+  width: 90px;
+  height: 40px;
+}
+
+/* line 34, /Users/Moonlight/Desktop/dental_website/dental_office_PLD/app/assets/stylesheets/home.css.scss */
+div.info-col {
+  padding-right: 91px !important;
+}
+
+/* line 38, /Users/Moonlight/Desktop/dental_website/dental_office_PLD/app/assets/stylesheets/home.css.scss */
+.bottom-space-14 {
+  margin-bottom: 14px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
