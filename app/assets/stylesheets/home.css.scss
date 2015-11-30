@@ -31,10 +31,6 @@ a img.mid-logo {
 }
 
 
-div.info-col {
-	padding-right: 91px !important;
-}
-
 .bottom-space-14 {
 	margin-bottom: 14px;
 }
@@ -42,6 +38,11 @@ div.info-col {
 /****************
 Services section
 ******************/
+
+div.cosmetic-fill-panel, div.general-fill-panel {
+	padding-right: 91px !important;
+}
+
 .right-service-panel {
 	padding-left: 84px;
 }
